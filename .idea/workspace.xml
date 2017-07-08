@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9368313e-afdc-4c9c-b573-033c68131154" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../selenide/src/test/java/StylusSearchTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../selenide/src/test/java/GmailLogin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../selenide/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../selenide/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../selenide/out/" />
@@ -20,7 +20,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../selenide/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="138">
               <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
@@ -30,8 +30,8 @@
       <file leaf-file-name="GoogleSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../selenide/src/test/java/GoogleSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="358">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StylusSearchTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GmailLogin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../selenide/src/test/java/GmailLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StylusSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../selenide/src/test/java/StylusSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="147">
+              <caret line="44" column="56" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,6 +87,7 @@
         <option value="$PROJECT_DIR$/../selenide/pom.xml" />
         <option value="$PROJECT_DIR$/../selenide/src/test/java/GoogleSearchTest.java" />
         <option value="$PROJECT_DIR$/../selenide/src/test/java/StylusSearchTest.java" />
+        <option value="$PROJECT_DIR$/../selenide/src/test/java/GmailLogin.java" />
       </list>
     </option>
   </component>
@@ -216,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.StylusSearchTest.stylusSearch">
+  <component name="RunManager" selected="TestNG.GmailLogin">
     <configuration default="false" name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="selenide" />
@@ -305,6 +318,34 @@
       <option name="METHOD_NAME" value="stylusSearch" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="GmailLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="selenide" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GmailLogin" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -725,18 +766,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GoogleSearchTest" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.GoogleSearchTest" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.GoogleSearchTest.searchTest" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.StylusSearchTest.stylusSearch" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.GmailLogin" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.StylusSearchTest.stylusSearch" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GoogleSearchTest.searchTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GoogleSearchTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GoogleSearchTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.GmailLogin" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.StylusSearchTest.stylusSearch" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GoogleSearchTest.searchTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GoogleSearchTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GoogleSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -751,34 +794,42 @@
       <option name="presentableId" value="Default" />
       <updated>1499277617542</updated>
       <workItem from="1499277628529" duration="8940000" />
-      <workItem from="1499536798299" duration="4770000" />
+      <workItem from="1499536798299" duration="9681000" />
     </task>
+    <task id="LOCAL-00001" summary="stylusSearch">
+      <created>1499541604292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499541604293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoogleSearchTest_searchTest - 2017.07.08 at 12h 51m 29s.xml">
-      <configuration name="GoogleSearchTest.searchTest" configurationId="TestNG" />
+    <history-entry file="GmailLogin - 2017.07.08 at 23h 13m 10s.xml">
+      <configuration name="GmailLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSearchTest_searchTest - 2017.07.08 at 12h 52m 19s.xml">
-      <configuration name="GoogleSearchTest.searchTest" configurationId="TestNG" />
+    <history-entry file="GmailLogin - 2017.07.08 at 23h 19m 49s.xml">
+      <configuration name="GmailLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSearchTest_searchTest - 2017.07.08 at 13h 14m 38s.xml">
-      <configuration name="GoogleSearchTest.searchTest" configurationId="TestNG" />
+    <history-entry file="GmailLogin - 2017.07.08 at 23h 21m 47s.xml">
+      <configuration name="GmailLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StylusSearchTest_stylusSearch - 2017.07.08 at 21h 44m 25s.xml">
-      <configuration name="StylusSearchTest.stylusSearch" configurationId="TestNG" />
+    <history-entry file="GmailLogin - 2017.07.08 at 23h 25m 04s.xml">
+      <configuration name="GmailLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StylusSearchTest_stylusSearch - 2017.07.08 at 21h 45m 31s.xml">
-      <configuration name="StylusSearchTest.stylusSearch" configurationId="TestNG" />
+    <history-entry file="GmailLogin - 2017.07.08 at 23h 28m 07s.xml">
+      <configuration name="GmailLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StylusSearchTest_stylusSearch - 2017.07.08 at 21h 50m 47s.xml">
-      <configuration name="StylusSearchTest.stylusSearch" configurationId="TestNG" />
+    <history-entry file="GmailLogin - 2017.07.08 at 23h 34m 47s.xml">
+      <configuration name="GmailLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StylusSearchTest_stylusSearch - 2017.07.08 at 21h 52m 53s.xml">
-      <configuration name="StylusSearchTest.stylusSearch" configurationId="TestNG" />
+    <history-entry file="GmailLogin - 2017.07.08 at 23h 35m 14s.xml">
+      <configuration name="GmailLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StylusSearchTest_stylusSearch - 2017.07.08 at 21h 53m 41s.xml">
-      <configuration name="StylusSearchTest.stylusSearch" configurationId="TestNG" />
+    <history-entry file="GmailLogin - 2017.07.08 at 23h 39m 30s.xml">
+      <configuration name="GmailLogin" configurationId="TestNG" />
     </history-entry>
     <history-entry file="StylusSearchTest_stylusSearch - 2017.07.08 at 22h 07m 46s.xml">
       <configuration name="StylusSearchTest.stylusSearch" configurationId="TestNG" />
@@ -788,11 +839,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13710000" />
+    <option name="totallyTimeSpent" value="18621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -804,12 +854,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -830,6 +880,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="stylusSearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="stylusSearch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,7 +916,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../selenide/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="138">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
@@ -870,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../selenide/src/test/java/GoogleSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="358">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -880,8 +934,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../selenide/src/test/java/StylusSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="147">
+          <caret line="44" column="56" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../selenide/src/test/java/GmailLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
