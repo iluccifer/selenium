@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static junit.framework.TestCase.assertTrue;
 
-public class StylusSearchTest {
+public class StylusSearchTestSelenium {
 
     private String stylusSite = "https://stylus.ua/";
     private String targetUrl = "https://stylus.ua/smartfony/sony-xperia-z2-black-198717.html";

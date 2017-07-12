@@ -13,6 +13,7 @@
         <selenideversion>4.5.1</selenideversion>
         <juniteversion>6.11</juniteversion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <webdrivermanager.version>1.7.1</webdrivermanager.version>
     </properties>
 
     <dependencies>
@@ -29,9 +30,21 @@
             <version>${juniteversion}</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
             <version>RELEASE</version>
         </dependency>
 

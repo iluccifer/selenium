@@ -1,28 +1,17 @@
+import selenium.core.WebDriverTestBase;
 import org.openqa.selenium.By;
-        import org.openqa.selenium.WebDriver;
-        import org.openqa.selenium.WebElement;
-        import org.openqa.selenium.chrome.ChromeDriver;
-        import org.testng.annotations.Test;
-
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+import static junit.framework.TestCase.assertTrue;
 
-        import static junit.framework.TestCase.assertTrue;
-
-public class GoogleSearchTest {
+public class  GoogleSearchTest extends WebDriverTestBase {
 
     private String googleSearch = "https://www.google.com.ua/";
     private String searchText = "Selenium";
-    private WebDriver webDriver;
 
     @Test
     public void searchTest() {
-        System.setProperty("webdriver.chrome.driver",
-                "D:\\WebDriver\\chromedriver.exe");
-
-        webDriver = new ChromeDriver();
-        webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         webDriver.get(googleSearch);
         By searchLocator = By.id("lst-ib");
         WebElement searchField = webDriver.findElement(searchLocator);
