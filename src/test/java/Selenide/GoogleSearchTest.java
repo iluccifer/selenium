@@ -1,3 +1,5 @@
+package Selenide;
+
 import selenium.core.WebDriverTestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
