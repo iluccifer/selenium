@@ -6,12 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import selenium.core.WebDriverTestBase;
 
 import java.util.concurrent.TimeUnit;
 
 import static junit.framework.TestCase.assertTrue;
 
-public class StylusSearchTestSelenium {
+public class StylusSearchTestSelenium extends WebDriverTestBase {
 
     private String stylusSite = "https://stylus.ua/";
     private String targetUrl = "https://stylus.ua/smartfony/sony-xperia-z2-black-198717.html";

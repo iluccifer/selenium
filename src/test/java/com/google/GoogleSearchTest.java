@@ -1,4 +1,4 @@
-package Selenide;
+package com.google;
 
 import selenium.core.WebDriverTestBase;
 import org.openqa.selenium.By;
@@ -26,12 +26,11 @@ public class  GoogleSearchTest extends WebDriverTestBase {
 
 
         List <WebElement> elements;
-        elements = webDriver.findElements(By.xpath(".//*[@id='rso']/div/div/div/div/div/h3/a"));
+        elements = webDriver.findElements(By.xpath("//a[contains(text(),'Selenium')]"));
        for (WebElement i : elements) {
            System.out.println(i);
            assertTrue(i.isDisplayed());
            assertTrue(i.getText().contains(searchText));
        }
-       webDriver.quit();
     }
 }
